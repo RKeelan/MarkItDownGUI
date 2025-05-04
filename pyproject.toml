@@ -1,0 +1,23 @@
+[project]
+name = "mid-gui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "markitdown[docx,pdf,pptx,python]>=0.1.1",
+    "pyside6>=6.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyinstaller>=6.13.0",
+    "uv>=0.1.22",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 120
