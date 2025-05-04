@@ -37,6 +37,9 @@ logger.propagate = False
 # Get the application directory
 APP_DIR = Path(__file__).parent.absolute()
 
+# Application version
+APP_VERSION = "0.1.1"
+
 
 class DropArea(QLabel):
     def __init__(self):
@@ -120,7 +123,7 @@ class DropArea(QLabel):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("MarkItDown GUI")
+        self.setWindowTitle(f"MarkItDown GUI v{APP_VERSION}")
         self.setFixedSize(500, 300)
         
         # Try to set icon if available
