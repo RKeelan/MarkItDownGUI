@@ -1,5 +1,7 @@
 # MarkItDown GUI
 
+[![CI](https://github.com/RKeelan/MarkItDownGUI/actions/workflows/release.yml/badge.svg)](https://github.com/RKeelan/MarkItDownGUI/actions/workflows/release.yml)
+
 A simple graphical user interface for Microsoft's [MarkItDown](https://github.com/microsoft/markitdown) tool.
 
 ## Description
