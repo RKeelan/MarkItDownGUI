@@ -28,7 +28,7 @@ jobs:
           pyinstaller --onefile --windowed --icon icon.ico --add-data "icon.ico;." --collect-all magika --collect-all markitdown -n MarkItDownGUI.exe main.py
 
       - name: Archive EXE
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: MarkItDownGUI
           path: dist/MarkItDownGUI.exe
